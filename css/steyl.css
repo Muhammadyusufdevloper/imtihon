@@ -1,0 +1,23 @@
+/* @import url(./reset/reset.css); */
+@import url(./verebil/verebil.css);
+@import url(./fonts/fonts.css);
+@import url(./header/header.css);
+@import url(./hero/hero.css);
+@import url(./about/about.css);
+@import url(./advice/advice.css);
+@import url(./services/services.css);
+@import url(contact/contact.css);
+@import url(./footer/footer.css);
+
+
+
+ @import url(./reset/reset.min.css);
+/* @import url(./verebil/verebil.min.css);
+@import url(./fonts/fonts.min.css);
+@import url(./header/header.min.css);
+@import url(./hero/hero.min.css);
+@import url(./about/about.min.css);
+@import url(./advice/advice.min.css);
+@import url(./services/services.min.css);
+@import url(contact/contact.min.css);
+@import url(./footer/footer.min.css);  */

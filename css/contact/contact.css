@@ -1,0 +1,122 @@
+#contact{
+    padding-top: 80px;
+    background-color: #F3F3F3;
+}
+.contact-wrapper {
+
+}
+.contact-wrapper__top-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.contact__top-box__title {
+    margin-bottom: 10px;
+    color: var(--text-color);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+.contact__top-box__text {
+    max-width:470px ;
+    color: var(--second-text-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+.contact-wrapper__center-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 29px;
+}
+.contact__center-box__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 40px;
+    width: 328px;
+    transition: all 0.5s ease;
+
+}
+.contact__center-box__card img {
+    margin-bottom: 15px;
+}
+.contact__center-box__card__text {
+    color: var(--text-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    transition: all 0.5s ease;
+}
+.contact__center-box__card__title {
+    margin: 15px 0;
+    color: var(--text-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    transition: all 0.5s ease;
+
+}
+.contact__center-box__card__btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    transition: all 0.5s ease;
+}
+.contact__img-white{
+    display: none;
+}
+.contact__center-box__card:hover:hover {
+    background-color: #252B42;
+}
+.contact__center-box__card:hover .contact__center-box__card__text ,
+.contact__center-box__card:hover .contact__center-box__card__title,
+.contact__center-box__card:hover .contact__center-box__card__btn {
+    color: var(--light-text-color);
+}
+.contact__center-box__card:hover .contact__center-box__card__btn{
+    border: 1px solid var(--light-text-color);
+}
+.contact__center-box__card:hover:hover .contact__img-white{
+    display: block;
+}
+.contact__center-box__card:hover:hover .contact__img-dark{
+    display: none;
+}
+@media (max-width: 390px){
+    .contact__top-box__title {
+        font-size: 30px;
+    }
+    .contact__top-box__text {
+        font-size: 12px;
+    }
+}
